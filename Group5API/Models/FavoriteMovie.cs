@@ -5,17 +5,17 @@ namespace Group5API.Models
     public class FavoriteMovie
     {
         [Key]
-        public int Id { get; set; } // Primary Key (Column 1)
+        public int Id { get; set; } // Primary Key
 
         [Required]
-        public string Title { get; set; } = string.Empty; // Column 2
+        public string Title { get; set; } = string.Empty;
 
-        public string Director { get; set; } = string.Empty; // Column 3
+        public string Director { get; set; } = string.Empty;
 
-        public string Genre { get; set; } = string.Empty; // Column 4
+        public string Genre { get; set; } = string.Empty;
 
-        public int ReleaseYear { get; set; } // Column 5
+        public int ReleaseYear { get; set; }
 
-        public double Rating { get; set; } // Column 6 (ex: 1.0 - 10.0)
+        public double Rating { get; set; } //(ex: rate the movie 1.0 - 10.0)
     }
 }
