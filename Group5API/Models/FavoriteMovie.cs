@@ -16,6 +16,6 @@ namespace Group5API.Models
 
         public int ReleaseYear { get; set; }
 
-        public double Rating { get; set; } //(ex: rate the movie 1.0 - 10.0)
+        public double Rating { get; set; } //(movie rating 1.0 - 10.0)
     }
 }
