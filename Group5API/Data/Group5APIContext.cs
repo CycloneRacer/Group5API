@@ -21,8 +21,8 @@ public class Group5APIContext(DbContextOptions<Group5APIContext> options) : DbCo
                 new FavoriteMovie { Id = 2, Title = "Bridesmaids", Director = "Paul Feig", Genre = "Comedy", ReleaseYear = 2011, Rating = 6.8 },
                 new FavoriteMovie { Id = 3, Title = "Other Mommy", Director = "Rob Savage", Genre = "Horror", ReleaseYear = 2026, Rating = 7.2 },
                 new FavoriteMovie { Id = 4, Title = "Spider-Man: Into the Spider-Verse", Director = "Bob Persichetti", Genre = "Animation", ReleaseYear = 2018, Rating = 8.4 },
-                new FavoriteMovie { Id = 5, Title = "Kyle Placeholder", Director = "Director", Genre = "Action", ReleaseYear = 2018, Rating = 8.0 },
-                new FavoriteMovie { Id = 6, Title = "Claire Placeholder", Director = "Director", Genre = "Drama", ReleaseYear = 2019, Rating = 8.2 }
-            );
+                new FavoriteMovie { Id = 5, Title = "Get Out", Director = "Jordan Peele", Genre = "Horror", ReleaseYear = 2017, Rating = 7.8 },
+                new FavoriteMovie { Id = 6, Title = "The Lego Movie", Director = "Phil Lord", Genre = "Animation", ReleaseYear = 2014, Rating = 7.7 }
+                );
     }
 }
